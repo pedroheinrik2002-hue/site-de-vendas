@@ -1,0 +1,52 @@
+body{
+ display: flex;
+ flex-direction: column;
+ align-items:center;
+ justify-content: center;   
+ height: 100vh;
+ margin: 0;
+ font-family: sans-serif;
+ background:linear-gradient(rgb(255, 255, 255),rgb(73, 70, 76));
+
+
+}
+
+
+.menu-produtos a {
+   text-decoration: none;
+   color: black;
+   
+}
+
+.menu-produtos ul {
+
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.menu-produtos li {
+    margin-left:  15px;
+    
+
+
+}
+
+h1{
+    font-size: 120px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    
+
+
+}
+
+.imagem-controle{
+   width: 100px;
+   height: 300x;
+   
+}
