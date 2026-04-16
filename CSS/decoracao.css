@@ -6,7 +6,7 @@ body{
  height: 100vh;
  margin: 0;
  font-family: sans-serif;
- background:linear-gradient(rgb(255, 255, 255),rgb(73, 70, 76));
+ background:linear-gradient(#460aea,rgb(0, 0, 0));
 
 
 }
@@ -14,7 +14,7 @@ body{
 
 .menu-produtos a {
    text-decoration: none;
-   color: black;
+   color: #00f2ff;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
    
 }
@@ -41,18 +41,15 @@ h1{
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
+    color: #00f2ff;
     
 
 
-}
-h1:hover{
-    color: rgb(118, 114, 114);
-    
 }
 
 
 .borda{
-    border: 3px solid  transparent black;
+    border: 3px solid  transparent rgb(166, 1, 255);
     border-radius: 9px;
     transition: 0.3s;
     
@@ -61,7 +58,7 @@ h1:hover{
 
 
 .borda:hover{
-    border: 5px solid black;
+    border: 5px solid rgba(155, 14, 231, 0.68);
     font-size: 20px;
     
     
