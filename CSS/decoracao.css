@@ -15,6 +15,7 @@ body{
 .menu-produtos a {
    text-decoration: none;
    color: black;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
    
 }
 
@@ -44,9 +45,24 @@ h1{
 
 
 }
+h1:hover{
+    color: rgb(118, 114, 114);
+    
+}
 
-.imagem-controle{
-   width: 100px;
-   height: 300x;
-   
+
+.borda{
+    border: 3px solid  transparent black;
+    border-radius: 9px;
+    transition: 0.3s;
+    
+}
+
+
+
+.borda:hover{
+    border: 5px solid black;
+    font-size: 20px;
+    
+    
 }

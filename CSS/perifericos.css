@@ -1,0 +1,50 @@
+body{
+    background:linear-gradient(rgb(255, 255, 255),rgb(73, 70, 76));
+    height: 100vh;
+    
+}
+
+.imagem-controle{
+   width: 200px;
+   height: 300x;
+   margin-bottom: 30px;
+   align-items: center;
+}
+
+
+.produto-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    gap: 15px;
+    width: fit-content;
+    width: 100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: transform 0,3s ease;
+
+
+
+
+}
+.detalhes{
+    display: flex;
+    flex-direction: column;
+    color: rgb(194, 86, 14);
+
+}
+
+
+.produto-container:hover{
+    transform:scale(1.05);
+    transition: 0.3s;
+}
+
+.detalhes:hover{
+    color: brown;
+}
