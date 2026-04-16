@@ -39,9 +39,9 @@ h1{
     font-size: 120px;
     margin-bottom: 30px;
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:FONTEGAME;
     font-style: italic;
-    color: #00f2ff;
+    color: #f6ff00;
     
 
 
@@ -72,4 +72,8 @@ h1{
 }
 nav{
     font-size: 14px;
+}
+@font-face {
+    font-family:FONTEGAME ;
+    src: url(../FONTES/Bitcount_Grid_Double/BitcountGridDouble-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
 }
